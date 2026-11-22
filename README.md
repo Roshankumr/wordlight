@@ -42,8 +42,8 @@ Players swipe across a circular letter wheel to form words and fill a crossword 
 
 | Tool | Version |
 |---|---|
-| Android Studio | Rabbit 2 |
-| JDK | 21 |
+| Android Studio | Android Studio \| AI-262.10968.63.2622.16840690 |
+| JDK | JetBrains Runtime 21 (Gradle daemon JVM, set in `gradle/gradle-daemon-jvm.properties`) |
 | Gradle | 8.11.1 (Gradle Wrapper) |
 | Android Gradle Plugin | 8.7.3 |
 | Kotlin | 2.1.0 |
@@ -55,8 +55,9 @@ Players swipe across a circular letter wheel to form words and fill a crossword 
 
 | Category | Library | Version | Purpose |
 |---|---|---|---|
-| UI | Jetpack Compose (BOM) | 2024.12.01 | Declarative UI, animation, Canvas drawing |
-| UI | Material 3 + Material Icons Extended | via BOM | Theming and icons |
+| UI | Jetpack Compose (BOM) | 2024.12.01 (Compose UI, Foundation, Animation 1.7.6) | Declarative UI, animation, Canvas drawing |
+| UI | Material 3 + Material Icons Extended | 1.3.1 / 1.7.6 (via BOM) | Theming and icons |
+| Core | AndroidX Core KTX | 1.15.0 | Kotlin extensions for Android framework APIs |
 | Architecture | AndroidX Lifecycle (ViewModel, runtime-compose) | 2.8.7 | ViewModels, `collectAsStateWithLifecycle`, lifecycle effects |
 | Architecture | Activity Compose | 1.9.3 | Compose host, edge-to-edge, predictive back |
 | Navigation | Navigation Compose | 2.8.5 | Type-safe navigation between screens |
@@ -66,8 +67,8 @@ Players swipe across a circular letter wheel to form words and fill a crossword 
 | Serialization | kotlinx.serialization JSON | 1.7.3 | Level data parsing, type-safe navigation routes |
 | Concurrency | Kotlin Coroutines + Flow | 1.9.0 | Asynchronous work and reactive state |
 | Audio | Android `SoundPool` | Platform | Low-latency sound effects |
-| Debugging | LeakCanary (debug builds only) | 2.14 | Memory leak detection |
 | Testing | JUnit 4, kotlinx-coroutines-test | 4.13.2 / 1.9.0 | Unit testing |
+| Testing | AndroidX Test (ext-junit, runner) | 1.3.0 / 1.7.0 | Instrumented tests on a device or emulator |
 
 **Fonts:** Fredoka SemiBold (titles, letters, buttons) and Inter Regular/Medium/SemiBold (labels and captions), from Google Fonts.
 **Release build:** R8 code shrinking and resource shrinking are enabled.
@@ -171,7 +172,7 @@ A unit test runs the parser over the real JSON file, so an invalid level cannot 
 | Leaving a level | Progress is saved to DataStore after every word, so the level resumes where the player left off. |
 | App backgrounded | The game opens the Pause menu and the auto-advance countdown is cancelled. Rotation is excluded via `isChangingConfigurations`. |
 | Interruptions (calls, notifications) | An in-progress swipe is discarded on `ON_PAUSE` without submitting. |
-| Memory leaks | ViewModels are scoped to their navigation entry and hold no `Context` or `View` references. LeakCanary checks this in debug builds. |
+| Memory leaks | ViewModels are scoped to their navigation entry and hold no `Context` or `View` references. |
 
 ---
 
@@ -256,15 +257,15 @@ app/src/main/assets/
 
 **Prerequisites**
 
-- Android Studio Rabbit 2
-- JDK 21 (*Settings → Build, Execution, Deployment → Build Tools → Gradle → Gradle JDK*)
+- Android Studio | AI-262.10968.63.2622.16840690
+- JetBrains Runtime (JDK) 21, required by `gradle/gradle-daemon-jvm.properties` (*Settings → Build, Execution, Deployment → Build Tools → Gradle → Gradle JDK*)
 - Android SDK 35
 
 **Steps**
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/wordlight.git
+   git clone https://github.com/Roshankumr/wordlight.git
    ```
 2. Open the project in Android Studio and let Gradle sync.
 3. Run the app on a device or emulator, or build from the command line:
