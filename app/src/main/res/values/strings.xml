@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wordlight</string>
+
+    <!-- Home -->
+    <string name="home_logo_light">light</string>
+    <string name="home_tagline">Connect the letters. Fill the grid.</string>
+    <string name="home_play">Play</string>
+    <string name="home_level">Level %1$d</string>
+    <string name="home_all_complete">All levels complete</string>
+    <string name="home_choose_level">Choose level</string>
+
+    <!-- Level select -->
+    <string name="levels_title">Levels</string>
+    <string name="levels_progress">%1$d of %2$d complete</string>
+    <string name="levels_pack_info">Levels %1$d–%2$d · %3$s</string>
+    <string name="levels_letters_range">%1$d–%2$d letters</string>
+    <string name="levels_letters_single">%1$d letters</string>
+    <string name="levels_continue">Continue · Level %1$d</string>
+
+    <!-- Game -->
+    <string name="game_level">Level %1$d</string>
+    <string name="game_words_progress">%1$d of %2$d words</string>
+    <string name="game_load_error">This level couldn\'t be loaded.</string>
+    <string name="game_go_back">Go back</string>
+    <string name="feedback_bonus">Bonus word +1</string>
+    <string name="feedback_already">Already found</string>
+    <string name="feedback_invalid">Not in this puzzle</string>
+
+    <!-- Pause -->
+    <string name="pause_title">Paused</string>
+    <string name="pause_subtitle">Level %1$d · %2$d of %3$d words · progress saved</string>
+    <string name="pause_resume">Resume</string>
+    <string name="pause_sound">Sound</string>
+    <string name="pause_haptics">Haptics</string>
+    <string name="pause_restart">Restart</string>
+    <string name="pause_levels">Levels</string>
+    <string name="pause_home">Home</string>
+
+    <!-- Complete -->
+    <string name="complete_level">LEVEL %1$d</string>
+    <string name="complete_title">Complete!</string>
+    <string name="complete_bonus_title">Bonus words</string>
+    <string name="complete_bonus_progress">%1$d of %2$d found</string>
+    <string name="complete_bonus_left">+%1$d left</string>
+    <string name="complete_next">Next level</string>
+    <string name="complete_back_to_levels">Back to levels</string>
+    <string name="complete_level_select">Level select</string>
+    <string name="complete_auto_advance">Next level in %1$ds</string>
+    <string name="complete_stay">Stay</string>
+
+    <!-- Accessibility -->
+    <string name="cd_pause">Pause</string>
+    <string name="cd_shuffle">Shuffle letters</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_bonus_stars">Bonus words found</string>
+    <string name="cd_locked">Locked</string>
+    <string name="cd_completed">Completed</string>
+</resources>

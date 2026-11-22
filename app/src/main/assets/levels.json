@@ -1,0 +1,200 @@
+{
+  "version": 1,
+  "levels": [
+    {
+      "id": 1, "pack": "Dawn", "letters": "CAT", "rows": 3, "cols": 3,
+      "words": [
+        {"word": "CAT", "row": 0, "col": 0, "dir": "H"},
+        {"word": "ACT", "row": 0, "col": 1, "dir": "V"}
+      ],
+      "bonus": ["AT"]
+    },
+    {
+      "id": 2, "pack": "Dawn", "letters": "DOG", "rows": 3, "cols": 3,
+      "words": [
+        {"word": "DOG", "row": 0, "col": 0, "dir": "H"},
+        {"word": "GOD", "row": 0, "col": 2, "dir": "V"}
+      ],
+      "bonus": ["GO", "DO"]
+    },
+    {
+      "id": 3, "pack": "Dawn", "letters": "OWN", "rows": 3, "cols": 5,
+      "words": [
+        {"word": "OWN", "row": 0, "col": 0, "dir": "H"},
+        {"word": "NOW", "row": 0, "col": 2, "dir": "V"},
+        {"word": "WON", "row": 2, "col": 2, "dir": "H"}
+      ],
+      "bonus": ["NO", "ON", "OW"]
+    },
+    {
+      "id": 4, "pack": "Dawn", "letters": "TEAR", "rows": 4, "cols": 6,
+      "words": [
+        {"word": "TEAR", "row": 0, "col": 0, "dir": "H"},
+        {"word": "EAT", "row": 0, "col": 1, "dir": "V"},
+        {"word": "RATE", "row": 0, "col": 3, "dir": "V"},
+        {"word": "EAR", "row": 3, "col": 3, "dir": "H"}
+      ],
+      "bonus": ["TEA", "ART", "RAT", "TAR", "ERA", "ATE", "ETA", "ARE", "TARE"]
+    },
+    {
+      "id": 5, "pack": "Dawn", "letters": "LIVE", "rows": 6, "cols": 6,
+      "words": [
+        {"word": "LIVE", "row": 0, "col": 0, "dir": "H"},
+        {"word": "VILE", "row": 0, "col": 2, "dir": "V"},
+        {"word": "EVIL", "row": 3, "col": 2, "dir": "H"},
+        {"word": "LIE", "row": 3, "col": 5, "dir": "V"}
+      ],
+      "bonus": ["VEIL", "LEI"]
+    },
+    {
+      "id": 6, "pack": "Dawn", "letters": "STOP", "rows": 6, "cols": 7,
+      "words": [
+        {"word": "STOP", "row": 0, "col": 0, "dir": "H"},
+        {"word": "POTS", "row": 0, "col": 3, "dir": "V"},
+        {"word": "TOPS", "row": 2, "col": 3, "dir": "H"},
+        {"word": "SPOT", "row": 2, "col": 6, "dir": "V"}
+      ],
+      "bonus": ["POST", "OPTS", "TOP", "POT", "OPT", "SOP"]
+    },
+    {
+      "id": 7, "pack": "Dawn", "letters": "TEAM", "rows": 4, "cols": 7,
+      "words": [
+        {"word": "TEAM", "row": 0, "col": 0, "dir": "H"},
+        {"word": "EAT", "row": 0, "col": 1, "dir": "V"},
+        {"word": "MEAT", "row": 0, "col": 3, "dir": "V"},
+        {"word": "TAME", "row": 3, "col": 3, "dir": "H"}
+      ],
+      "bonus": ["MATE", "TEA", "ATE", "ETA", "MAT", "MET"]
+    },
+    {
+      "id": 8, "pack": "Dawn", "letters": "ROSE", "rows": 6, "cols": 5,
+      "words": [
+        {"word": "ROSE", "row": 0, "col": 0, "dir": "H"},
+        {"word": "ORES", "row": 0, "col": 1, "dir": "V"},
+        {"word": "SORE", "row": 3, "col": 1, "dir": "H"},
+        {"word": "ORE", "row": 3, "col": 2, "dir": "V"}
+      ],
+      "bonus": ["ROE"]
+    },
+    {
+      "id": 9, "pack": "Dawn", "letters": "LAKE", "rows": 5, "cols": 6,
+      "words": [
+        {"word": "LAKE", "row": 0, "col": 0, "dir": "H"},
+        {"word": "KALE", "row": 0, "col": 2, "dir": "V"},
+        {"word": "LEAK", "row": 2, "col": 2, "dir": "H"},
+        {"word": "ALE", "row": 2, "col": 4, "dir": "V"}
+      ],
+      "bonus": ["ELK", "LEA"]
+    },
+    {
+      "id": 10, "pack": "Dawn", "letters": "NEST", "rows": 4, "cols": 7,
+      "words": [
+        {"word": "NEST", "row": 0, "col": 0, "dir": "H"},
+        {"word": "NETS", "row": 0, "col": 0, "dir": "V"},
+        {"word": "TENS", "row": 0, "col": 3, "dir": "V"},
+        {"word": "SENT", "row": 3, "col": 3, "dir": "H"}
+      ],
+      "bonus": ["TEN", "NET", "SET"]
+    },
+    {
+      "id": 11, "pack": "Dusk", "letters": "HEART", "rows": 5, "cols": 5,
+      "words": [
+        {"word": "HEART", "row": 0, "col": 0, "dir": "H"},
+        {"word": "EARTH", "row": 0, "col": 1, "dir": "V"},
+        {"word": "RAT", "row": 0, "col": 3, "dir": "V"},
+        {"word": "HATE", "row": 4, "col": 1, "dir": "H"}
+      ],
+      "bonus": ["HATER", "HEAT", "HEAR", "RATE", "TEAR", "HARE", "HAT", "TEA", "EAT", "ART", "ATE", "EAR", "ERA", "TAR", "THE"]
+    },
+    {
+      "id": 12, "pack": "Dusk", "letters": "STONE", "rows": 5, "cols": 7,
+      "words": [
+        {"word": "STONE", "row": 0, "col": 0, "dir": "H"},
+        {"word": "TONE", "row": 0, "col": 1, "dir": "V"},
+        {"word": "NOTES", "row": 0, "col": 3, "dir": "V"},
+        {"word": "SENT", "row": 4, "col": 3, "dir": "H"}
+      ],
+      "bonus": ["ONSET", "TONES", "NOTE", "ONES", "NOSE", "NEST", "TEN", "SON", "TON", "ONE", "NET", "SET", "TOE", "NOT", "TOES"]
+    },
+    {
+      "id": 13, "pack": "Dusk", "letters": "PLANT", "rows": 4, "cols": 5,
+      "words": [
+        {"word": "PLANT", "row": 0, "col": 0, "dir": "H"},
+        {"word": "PANT", "row": 0, "col": 0, "dir": "V"},
+        {"word": "TAP", "row": 0, "col": 4, "dir": "V"},
+        {"word": "TAN", "row": 3, "col": 0, "dir": "H"}
+      ],
+      "bonus": ["PLAN", "ANT", "NAP", "PAT", "LAP", "ALP", "APT", "PAL"]
+    },
+    {
+      "id": 14, "pack": "Dusk", "letters": "CRANE", "rows": 4, "cols": 7,
+      "words": [
+        {"word": "CRANE", "row": 0, "col": 0, "dir": "H"},
+        {"word": "CARE", "row": 0, "col": 0, "dir": "V"},
+        {"word": "NEAR", "row": 0, "col": 3, "dir": "V"},
+        {"word": "RACE", "row": 3, "col": 3, "dir": "H"}
+      ],
+      "bonus": ["NACRE", "ACRE", "CANE", "ACNE", "EARN", "CAN", "CAR", "ARC", "RAN", "EAR", "ERA", "ARE", "ACE"]
+    },
+    {
+      "id": 15, "pack": "Dusk", "letters": "BREAD", "rows": 5, "cols": 5,
+      "words": [
+        {"word": "BREAD", "row": 0, "col": 0, "dir": "H"},
+        {"word": "BEARD", "row": 0, "col": 0, "dir": "V"},
+        {"word": "DARE", "row": 0, "col": 4, "dir": "V"},
+        {"word": "DEAR", "row": 4, "col": 0, "dir": "H"}
+      ],
+      "bonus": ["BARED", "DEBAR", "BEAD", "BARD", "READ", "BEAR", "BRED", "BRA", "BAD", "BED", "RED", "ERA", "EAR", "ARE", "DAB"]
+    },
+    {
+      "id": 16, "pack": "Dusk", "letters": "SMILE", "rows": 5, "cols": 5,
+      "words": [
+        {"word": "SMILE", "row": 0, "col": 0, "dir": "H"},
+        {"word": "SLIME", "row": 0, "col": 0, "dir": "V"},
+        {"word": "ELMS", "row": 0, "col": 4, "dir": "V"},
+        {"word": "MILES", "row": 3, "col": 0, "dir": "H"}
+      ],
+      "bonus": ["LIMES", "LIME", "MILE", "ISLE", "SLIM", "LIES", "ELM", "LIE"]
+    },
+    {
+      "id": 17, "pack": "Dusk", "letters": "GRAPE", "rows": 4, "cols": 5,
+      "words": [
+        {"word": "GRAPE", "row": 0, "col": 0, "dir": "H"},
+        {"word": "GEAR", "row": 0, "col": 0, "dir": "V"},
+        {"word": "PAGE", "row": 0, "col": 3, "dir": "V"},
+        {"word": "RAGE", "row": 3, "col": 0, "dir": "H"}
+      ],
+      "bonus": ["PAGER", "GAPER", "GAPE", "PEAR", "REAP", "PARE", "APE", "EAR", "GAP", "RAG", "ERA", "PEG", "RAP", "AGE"]
+    },
+    {
+      "id": 18, "pack": "Dusk", "letters": "FLAME", "rows": 4, "cols": 7,
+      "words": [
+        {"word": "FLAME", "row": 0, "col": 0, "dir": "H"},
+        {"word": "FAME", "row": 0, "col": 0, "dir": "V"},
+        {"word": "MEAL", "row": 0, "col": 3, "dir": "V"},
+        {"word": "LEAF", "row": 3, "col": 3, "dir": "H"}
+      ],
+      "bonus": ["MALE", "LAME", "FLEA", "ELF", "ALE", "ELM"]
+    },
+    {
+      "id": 19, "pack": "Dusk", "letters": "WATER", "rows": 4, "cols": 7,
+      "words": [
+        {"word": "WATER", "row": 0, "col": 0, "dir": "H"},
+        {"word": "WART", "row": 0, "col": 0, "dir": "V"},
+        {"word": "RATE", "row": 0, "col": 4, "dir": "V"},
+        {"word": "EAR", "row": 3, "col": 4, "dir": "H"}
+      ],
+      "bonus": ["WEAR", "WARE", "TEAR", "AWE", "WET", "TAR", "RAT", "EAT", "ATE", "TEA", "WAR", "RAW", "ERA", "ARE", "ART"]
+    },
+    {
+      "id": 20, "pack": "Dusk", "letters": "STARE", "rows": 4, "cols": 5,
+      "words": [
+        {"word": "STARE", "row": 0, "col": 0, "dir": "H"},
+        {"word": "SEAT", "row": 0, "col": 0, "dir": "V"},
+        {"word": "EARS", "row": 0, "col": 4, "dir": "V"},
+        {"word": "TEARS", "row": 3, "col": 0, "dir": "H"}
+      ],
+      "bonus": ["RATES", "ASTER", "STAR", "RATS", "ARTS", "TARS", "EAST", "EATS", "TEAS", "SATE", "REST", "ERAS", "TEAR", "RATE", "ART", "EAT", "TEA", "SET", "SAT", "RAT", "TAR", "ERA", "ARE", "EAR", "SEA"]
+    }
+  ]
+}

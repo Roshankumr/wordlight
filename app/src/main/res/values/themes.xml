@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="night">#FF101B2E</color>
+
+    <!-- Night background from the very first frame, so there's no white flash before Compose draws. -->
+    <style name="Theme.Wordlight" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/night</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>
