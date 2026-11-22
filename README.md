@@ -276,4 +276,4 @@ app/src/main/assets/
 | Run unit tests | `./gradlew testDebugUnitTest` |
 | Build release APK | `./gradlew assembleRelease` |
 
-The release APK is written to `app/build/outputs/apk/release/app-release.apk`. It is signed with the debug key so it can be installed for review.
+The release APK is written to `app/build/outputs/apk/release/Wordlight-v1.0.0.apk`. It is signed with the debug key so it can be installed for review.

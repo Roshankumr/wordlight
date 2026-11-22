@@ -79,5 +79,4 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.test.runner)
 
-    debugImplementation(libs.leakcanary.android)
 }
